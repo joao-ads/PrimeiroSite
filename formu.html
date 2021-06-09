@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>One Piece</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Rock+Salt&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Montserrat+Alternates:wght@300&display=swap" rel="stylesheet">        
+</head>
+    <body>
+        <!-- Cabeçalho-->
+        <header> 
+            <h2 id = "marcaPag"> One Piece </h2>
+            <!-- Menu-->
+            <nav id="menu">
+                <ul id="navbar">
+                    <li><a href="index.html"> Home </a></li>    
+                    <li><a href="fotos.html"> Fotos </a></li>    
+                    <li><a href="formu.html"> Contatos </a></li>    
+                </ul>
+            </nav>
+            <a id="logo" href="index.html"><img id = "logo" src="Imagens/logo.png" ></a>
+                     
+        </header>
+
+    <form action="XX" method="post">
+        <fieldset>
+            <legend> Contato </legend>
+            <label for="nome">Nome: </label> <br>
+            <input type="text" name= "Nome" id= "nome" size = "50px" 
+            required placeholder="Nome completo" >
+            <br>
+            
+            <label for="dataNascimento">Data Nasc: </label> <br>
+            <input type="text" name = "dataNascimento" id="dataNascimento"
+            placeholder="DD/MM/AA">
+            <br>
+            
+            <label for="otakuounerd">Você é ?</label> <br>
+            <input type="radio" name= "otaku" value="O" id="otaku"> 
+            <label for="otaku">Otaku</label> 
+            <input type="radio"name = "nerd" value="N" id="nerd"> 
+            <label for="nerd">Nerd</label>
+            <br>
+            
+            <label for="contato">Contato: </label> <br>
+            <input type="checkbox" name="telefone" id="telefone"> 
+            <label for="telefone">Telefone</label> 
+            <input type="checkbox" name="e-mail" id="e-mail">
+            <label for="e-mail">E-mail</label> 
+            <input type="text"name="contato" id="contato">
+            <br>
+
+            <label for="interesse">Interesses</label>
+            <br>
+            <select name= "interesse" id="interesse">
+                <option selected value="">Selecione</option>
+                <option value="Otaku">Otaku</option>
+                <option value="FaClube">Fã Clube</option>
+                <option value="Musicas">Músicas</option>
+            </select>
+            <br>
+            
+            <label for="mensagem">Mensagem: </label> <br>
+            <textarea name="mensagem" id="mensagem" cols="30" rows="5"> </textarea>
+            <br>
+            <input type="submit" name="btnEnvio" value ="Enviar">
+            &nbsp;&nbsp;
+            <input type="reset" name="btnReset" value="Limpar">               
+
+        </fieldset>
+
+    </form>
+    <footer class = "rodape">
+        <p>Copyright &copy; 2021 <br> Autor: João Valdevino Neto - RGM: 26062739 <br> Turma:Análise e Desenvolvimento de Sistemas - 1K – 2021 (Noturno) Prof° Katia Milani Lara Bossi.</p>
+    </footer>
+</body>
+</html>
